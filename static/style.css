@@ -1,0 +1,23 @@
+body {
+    background-color: #111;
+    color: white;
+}
+
+.analysis-container {
+    display: flex;
+    gap: 30px;
+    align-items: flex-start;
+}
+
+.table-panel {
+    min-width: 500px;
+}
+
+.info-panel {
+    width: 450px;
+
+    border: 1px solid white;
+    padding: 15px;
+
+    border-radius: 8px;
+}

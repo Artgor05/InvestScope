@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+
+{% block title %}
+Start
+{% endblock %}
+
+{% block content %}
+
+<h1>Start</h1>
+
+<form action="/recommendation" method="POST">
+
+    <div>
+        <label>Выберите тип акций</label><br>
+
+        <select name="stock_type">
+            <option value=""></option>
+            <option value="base_stock">Акции и ДР - безадрес.</option>
+            <option value="addict_stock" disabled>Неполные лоты (акции) - безадрес.</option>
+            <option value="PAI" disabled>Паи - безадрес.</option>
+        </select>
+    </div>
+
+    <br>
+
+    <div>
+        <label>Выберите режим анализа</label><br>
+
+        <select name="analysis_mode">
+            <option value=""></option>
+            <option value="recommendation">Рекомендательный</option>
+            <option value="manual" disabled>Ручной режим</option>
+        </select>
+    </div>
+
+    <br>
+
+    <button type="submit">Далее</button>
+
+</form>
+
+{% endblock %}
