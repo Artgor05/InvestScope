@@ -23,7 +23,11 @@ InvestScope — веб-приложение для анализа акций М�
 
 ## Скриншоты
 
-Скрины
+![Start](https://github.com/Artgor05/InvestScope/blob/main/images/First_screen.png)
+
+![Recommendation_select](https://github.com/Artgor05/InvestScope/blob/main/images/Second_screen.png)
+
+![Recommendation_result](https://github.com/Artgor05/InvestScope/blob/main/images/Third_screen.png)
 
 ## Режимы анализа
 
@@ -62,10 +66,6 @@ Backend
 - Frontend
 - HTML
 - CSS
-
-## Архитектура проекта
-
-<img width="361" height="283" alt="image" src="https://github.com/user-attachments/assets/158775d3-740c-4dbf-a78c-e691afa45046" />
 
 ## Источник данных
 
